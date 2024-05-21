@@ -1,0 +1,18 @@
+# Ignore all folders
+*/
+
+# list them specifically here:
+bin/
+include/
+lib/
+lib64/
+
+# Do not ignore the following files
+!main.py
+!requirements.txt
+!pyenv.cfg
+!.gitignore
+!README.md
+
+
+
