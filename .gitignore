@@ -1,2 +1,6 @@
 # Ignore all folders
 /*/
+
+# Ignore specific folder
+lib64
+lib64/
