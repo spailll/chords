@@ -1,6 +1,12 @@
-# Ignore all folders
+# Ignore all files and folders
 /*/
+*
 
-# Ignore specific folder
-lib64
-lib64/
+# Except these types of files in the root directory
+!/*.py
+!/*.txt
+!/*.cfg
+
+# Except these files
+!.gitignore
+!README.md
